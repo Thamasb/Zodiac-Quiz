@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 5;
+    padding: 5;
+}
+
 body{
-   
+   font-family: Tilt Neon, sans-serif;
+   font-weight: 300;
+
 }

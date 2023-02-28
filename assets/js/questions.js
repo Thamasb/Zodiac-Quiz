@@ -2,7 +2,7 @@ const zodiac = [
 {
     "question": "Aries",
     "choices": ["March 21-April 19","April 20-May 20","May 21-June 20"],
-    "correct":"March 21-April 19",
+    "correct": "March 21-April 19",
 },
 {
     "question": "Taurus",
@@ -69,22 +69,22 @@ const stars = [
 },
 {
     "question": "Taurus",
-    "choices": ["Venus","Mars","Mercur"],
+    "choices": ["Mars","Venus","Mercur"],
     "correct": "Venus",
 },
 {
     "question": "Gemini",
-    "choices": ["Mercur","Moon","Mercur"],
+    "choices": ["Venus","Mercur","Moon"],
     "correct": "Mercur",
 },
 {
     "question": "Cancer",
-    "choices": ["Moon","Mercur","Venus"],
+    "choices": ["Mercur","Venus","Moon"],
     "correct": "Moon",
 },
 {
     "question": "Leo",
-    "choices": ["Sun","Venus","Mars"],
+    "choices": ["Venus","Mars","Sun"],
     "correct": "Sun",
 },
 {
@@ -94,7 +94,7 @@ const stars = [
 },
 {
     "question": "Libra",
-    "choices": ["Venus","Mercur","Moon"],
+    "choices": ["Mercur","Venus","Moon"],
     "correct": "Venus",
 },
 {
@@ -104,12 +104,12 @@ const stars = [
 },
 {
     "question": "Sagittarius",
-    "choices": ["Jupiter","Saturn","Mars"],
+    "choices": ["Saturn","Mars","Jupiter"],
     "correct": "Jupiter",
 },
 {
     "question": "Capricorn",
-    "choices": ["Saturn","Uranus","Jupiter"],
+    "choices": ["Uranus","Saturn","Jupiter"],
     "correct": "Saturn",
 },
 {
@@ -119,7 +119,7 @@ const stars = [
 },
 {
     "question": "Pisces",
-    "choices": ["Neptun","Uranus","Saturn"],
+    "choices": ["Uranus","Saturn","Neptun"],
     "correct": "Neptun",
 },
-]
+];
