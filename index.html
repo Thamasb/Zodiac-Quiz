@@ -14,10 +14,11 @@
             Welcome to the Zodiac Quiz!</h1>
         <h2>Pick a category:</h2>
         <button id="zodiac" onclick="startquiz(zodiac)">Zodiac</button>
-        <button id="stars" onclick="startquiz(stars)">Star</button>
+        <button id="stars" onclick="startquiz(stars)">Stars</button>
+    
     </section>
     <section id="quiz-area"> 
-        <h2></h2>
+        <h2>Question</h2>
         <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>  
         <button class="btn-answer">Answer</button>
         <button class="btn-answer">Answer</button>
@@ -26,6 +27,9 @@
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
+<div id="restart">
+    <button id="restart" onclick="restartquiz">Restart</button>
+</div>
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>

@@ -5,8 +5,38 @@
     padding: 5;
 }
 
+html{
+    box-sizing: border-box;
+}
+
 body{
    font-family: Tilt Neon, sans-serif;
    font-weight: 300;
+   background-color: #00ADAD;
+   text-align: center; 
+   padding: 2%;
+   margin: 2%;
+   border-radius: 15%;
+}
+
+h1{ 
+    font-size: 170%;
+}
+
+#zodiac:hover{
+    background-color:  green;
+}
+
+#stars:hover{
+    background-color:  green;
+}
+
+.btn-answer:hover{
+    background-color:  grey;
+}
+
+.scores{
 
 }
+
+ 
