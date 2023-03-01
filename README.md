@@ -1,108 +1,293 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# KGY VISUAL 
 
-Welcome Tamas Baranyai,
+![Zodiac Quiz](https://res.cloudinary.com/) 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Zodiac Quiz is a quiz game. 
 
-## Gitpod Reminders
+# Table of contents
+- User Experience
+    - Project goals
+    - User stories
+    - Color reference
+    - Typography
+    - Font- Color Contarst
+    - Wireframes
+- Features
+    - Categories
+    - Anwers
+    - Scores
+    - Restart
+- Technologies used
+    - Languages
+    - Programs, frameworks
+- Testing
+    - Testing user stories
+    - Code validation
+    - Accessibility, responsibility, layout
+    - Manual testing
+- The finished Website
+- Deployment
+- Credits
+    - Content
+    - Media
+    - Acknowledgements
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience
 
-`python3 -m http.server`
+## Project Goals
 
-A blue button should appear to click: _Make Public_,
+- The website presents the Visual Effect Artist, his services, references and contact informations.
+- The design is clear and simple.
 
-Another blue button should appear to click: _Open Browser_.
+## User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- As a customer I want to be able to navigate easy at the website.
+- As a customer I want to be able to start a game.
+- As a customer I want to be able to choose a game option (Zodiac or Stars).
+- As a customer I want to be able to choose one answer.
+- As a customer I want to be able to check the correct/incorrect answers.
+- As a customer I want to be able to check my score.
+- As a customer I want to be able to restart a game.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Color Reference
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+| Color / Hex             |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Chinese Silver / #cccccc | ![#cccccc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/chinesesilver_obaj29.png)  |
+| Pastel Blue / #aacecc | ![#aacecc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/pastelblue_vfhpse.png)  |
+| Deep Aquamarine / #41836D | ![#41836D](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/deepaquamarine_hvyas5.png)  |
+| Medium Jungle Green / #163635 | ![#163635](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/mediumjunglegreen_m9taob.png)  |
+Black / #000000| ![#000000](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
 
-To log into the Heroku toolbelt CLI:
+Two main colors used on the website, the background is Pastel Blue (#aacecc) and the menu bakground is Medium Jungle Green (#163635). The letter color is Chinese Silver (#cccccc) and the alternative color is black (#000000). The hover effect color in the menu is Deep Aquamarine (#41836D). 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Typography
 
-------
+- The main font is [Tilt Neon](https://fonts.google.com/specimen/Tilt+Neon)
+- The alternative font is [Sans Serif](https://en.wikipedia.org/wiki/Sans-serif) as the fallback font is not being imported correctly.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Font-Color Contrast
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The letter color and the letter background color contartasts are passed at the [contrast check](https://webaim.org/resources/contrastchecker/). The contrast ratio is ...... .
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Validator](https://res.cloudinary.com/)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Wireframes
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+To design the website structure [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA5sieBhBnEiwAR9oh2jXxzdyaa1Fh2LCEZZpNvG6IYIC0ytSczGhuIb-dPb-zW9LQK0dkOxoCli4QAvD_BwE) wireframing tool has been used.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Desktop appearance 
+|              |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Index   | ![Index](https://res.cloudinary.com/  |
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Mobile appearance 
+|             |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Index   | ![Index](https://res.cloudinary.com/)  |
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Simple clear and similar color scheme and responsive design
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Categories
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Two categories of questions 'Zodiac', 'Stars'.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    ![Header](https://res.cloudinary.com/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Answers
+- Three answer option buttons.
 
-------
+    ![Answers](https://res.cloudinary.com/)
 
-## FAQ about the uptime script
+### Scores
+ The scores shows up the numbers of the correct and incorrect answers.
 
-**Why have you added this script?**
+    ![Scores](https://res.cloudinary.com/)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Restart
+- One 'Restart' buttom restart the game and the scores.
 
-**How will this affect me?**
+    ![Restart](https://res.cloudinary.com/)
+    
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Technologies Used
 
-**So….?**
+## Languages
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3 Version](https://en.wikipedia.org/wiki/CSS)
+- [JavaSript](https://en.wikipedia.org/wiki/JavaScript)
 
-**Can I opt out?**
+## Programs, Frameworks
+ 
+ - [Adobe Color](https://color.adobe.com/create/color-wheel)
+ - [Am I responsive](https://ui.dev/amiresponsive)
+ - [Balsamiq](https://balsamiq.com/)
+ - [Chorme DevTools](https://developer.chrome.com/docs/devtools/)
+ - [Cloudinary](https://cloudinary.com/?&utm_campaign=1329&utm_content=instapagelogocta-selfservetest)
+ - [Colormind](colormind.io)
+ - [Color-Name](https://www.color-name.com/)
+ - [Color Space](https://mycolor.space/)
+ - [Google Fonts](https://fonts.google.com/)
+ - [TinyPNG](https://tinypng.com/)
+ - [Font Awesome ](https://fontawesome.com/)
+ - [GitPod](https://gitpod.io/)
+ - [GitHub](https://github.com/)
+ - [Pexels](https://www.pexels.com/)
+ - [Readme.so](https://readme.so/)
+ - [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+ - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+ - [W3C MArkup Validator](https://validator.w3.org/)
+ - [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/)
+ - [JavaSript Validator ](https://)
+ 
+# Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- As a customer I want to be able to start a game.
+    - 
+- As a customer I want to be able to choose a game option (Zodiac or Stars).
+    - The two buttons are help to choose an option.
+- As a customer I want to be able to choose one answer.
+    -
+- As a customer I want to be able to check the correct/incorrect answers.
+    -
+- As a customer I want to be able to check my score.
+    -
+- As a customer I want to be able to restart a game.
+    -
+- As a customer I want to be able to navigate easy at the website.
+    -
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ 
 
-**Anything more?**
+## Code validation
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- [W3C Markup Validator](https://validator.w3.org) is used to validate the html file, no errors or warnings are shown. 
 
----
+![HTML Code](https://res.cloudinary.com/)
 
-Happy coding!
+- [The W3C CSS Validation Service](https://jigsaw.w3.org) is used to validate the CSS file, there were no errors found. 
+
+![CSS Code](https://res.cloudinary.com/)
+
+
+## Accessibility, responiveness, layout
+
+[Google Chrome Devtools](https://developer.chrome.com/docs/lighthouse/overview/) has been used during the project to confirm the website
+- accessibility,
+- responsibility and
+- layout.
+
+
+### Lighthouse Reports:
+
+![Desktop Version](https://res.cloudinary.com/)
+
+![Phone Version](https://res.cloudinary.com/)
+
+## Manual Testing
+
+- The website has been tested on the following browsers and no appearance, responsiveness or functionality issues:
+    - [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQiAic6eBhCoARIsANlox86hgZbgr7LezxlhgcxIVG3unaCJ9euD76PGf5Ny3KPmZ6MhmI5FDYMaAn6oEALw_wcB&gclsrc=aw.ds)
+    - [Mozilla Firefox](https://www.mozilla.org/hu/firefox/new/)
+    - [Microsoft Edge](https://www.microsoft.com/en-us/edge?exp=e507&form=MA13FJ)
+    - [Safari](https://www.apple.com/safari/)
+
+- The website has been tested on the following mobile devices and no appearance, responsiveness or functionality issues:
+    - Apple iPhone 3/4/4s
+    - Apple iPhone 5/5s
+    - Apple iPhone 6/6s/7
+    - Apple iPhone 6s Plus/7 Plus
+    - Apple iPhone SE
+    - Apple iphone XR
+    - Apple iphone 12 Pro
+    - Samsung Galaxy S5/S6/S7/S8+/S20 Ultra
+    - Sony Xperia Z2/Z3
+    - Google Pixel
+    - Pixel 5
+    - Apple iPad Air/Mini
+    - Surface Pro7/Duo
+    - Nest Hub Max
+
+
+- Common Elements Testing
+
+    - Categories 
+        - The 'Zodiac' and 'Stars' elements helps to choose a question area.
+        - Hover effect highlighs the buttons and helps to navigate easier.
+    - Aswers
+        - The three answer buttons shows the answer options.
+        - Hover effect highlighs the buttons and helps to navigate easier.
+    - Scores
+        - The scores shows the sorrect and incorrect answers.
+    - Restart
+        - Using the button the game start again and the scores begins to 0.
+        - Hover effect highlighs the buttons and helps to navigate easier.
+
+# The Finished Website
+
+## Desktop appearance
+|             |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Index   | ![Index](https://res.cloudinary.com/)  |
+
+
+## Mobile appearance
+|             |                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Index   | ![Index](https://res.cloudinary.com/)  |
+
+
+You can visit the deployeded website [here](https://thamasb.github.io/zodiac-qiuz/).
+
+
+# Deployment
+
+This website was developed using [GitPod](https://gitpod.io/workspaces) which was then committed and pushed to [GitHub.com](https://github.com/) using the [GitPod](https://gitpod.io/workspaces) terminal.
+
+You can clone or forked this repository from [GitHub.com](https://github.com/) to make a local copy.
+
+#### [Cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+1. On [GitHub.com](https://github.com/) navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. Copy the URL.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+
+#### [Forking](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
+1. In the File menu on [GitHub.com](https://github.com/) (top of the repostory) click to the 'Setting' button.
+2. At the left side of the page in the 'Genereal" menu click 'Pages'.
+3. Under Branch click the dropdown menu called 'None' and select 'main' / 'Master Branch'
+4. Click 'Save'
+5. The page automatically generate a link to your website. 
+
+# Credits
+
+## Content
+
+- All content was written by the developer.
+    
+## Media
+
+- [Pexels](https://www.pexels.com/photo/) Free to use photo: 
+
+
+
+## Acknowledgements
+
+ - [Code Institute](https://codeinstitute.net/ie/)
+ - [YouTube - tutorials ](https://www.youtube.com/)
+ - [Slack Community](https://slack.com/intl/en-ie/) 
