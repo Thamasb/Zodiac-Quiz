@@ -10,7 +10,7 @@ html{
 }
 
 body{
-   font-family: Tilt Neon, sans-serif;
+   font-family: "Tilt Neon", sans-serif;
    font-weight: 300;
    background-color: #00ADAD;
    text-align: center; 
@@ -51,10 +51,10 @@ section#welcome h1{
 section#welcome button:hover{
     color: white;
 }
-/*
+
 section{
     display: none;
-}*/
+}
 
 section.active{
     display: block;
@@ -74,7 +74,7 @@ section.active{
 
 section#quiz-area h1{
     font-size: 50px;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 button.btn-answer{
@@ -90,6 +90,11 @@ button.btn-answer{
 
 button.btn-answer.correct{
     background: #2ecc71;
+    color: #fff;
+}
+
+button.btn-answer.wrong{
+    background: #e74c3c;
     color: #fff;
 }
 

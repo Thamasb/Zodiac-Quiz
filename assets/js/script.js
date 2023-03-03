@@ -1,7 +1,7 @@
 let startArea = document.getElementById("welcome");
 let quizArea = document.getElementById("quiz-area");
 let questionText = document.getElementById("question-text");
-let answerButtons = document.getElementByClassName("btn-answer");
+let answerButtons = document.getElementsByClassName("btn-answer");
 let nextButton = document.getElementById("btn-next");
 let quizResult = document.getElementById("quiz-result");
 let scoreEl = document.getElementById("score");
@@ -84,4 +84,9 @@ function hideAllSections(){
 function gameOver(){
     hideAllSections();
     quizResult.classList.add("active");
+}
+
+function restartQuiz(){
+    hideAllSections();
+    startArea.classList.add("active");
 }
