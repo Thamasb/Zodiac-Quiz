@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Zodiac-Stars Quiz</title>
 </head>
+
 <body>
     <section id="welcome">
-        <h1 class="heading">
-            <!--<img class="logo" src="assets/images/zodiac.jpg"> -->
-            Welcome to the Zodiac Quiz!</h1>
+        <h1 class="heading">Welcome to the Zodiac Quiz!</h1>
         <h2>Pick a category:</h2>
         <button id="zodiac" onclick="startquiz(zodiac)">Zodiac</button>
         <button id="stars" onclick="startquiz(stars)">Stars</button>
-    
     </section>
-    <section id="quiz-area"> 
+    <section id="quiz-area">
+        <h1 id="question-text"></h1>
         <h2>Choose the correct answer</h2>
-        <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>  
         <button class="btn-answer">Answer</button>
         <button class="btn-answer">Answer</button>
+        <button class="btn-answer">Answer</button>
+        <button id="btn-next" class="btn-next">Next</button>
     </section>
+    <section id="quiz-result"> 
+        <h2>Your results</h2>
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
-<div id="restart">
-    <button id="restart" onclick="restartquiz">Restart</button>
-</div>
-
+    <div>
+        <button id="restart" onclick="restartQuiz()">Restart</button>
+    </div>
+    </section>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
 </body>
