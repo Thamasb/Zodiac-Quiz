@@ -52,10 +52,10 @@ section#welcome button:hover{
     color: white;
 }
 
-/*section{
+section{
     display: none;
 }
-*/
+
 section.active{
     display: block;
     opacity: 0;
@@ -86,6 +86,11 @@ button.btn-answer{
     width: 50%;
     max-width: 300px;
     cursor: pointer
+}
+
+button.btn-answer.correct{
+    background: #2ecc71;
+    color: #fff;
 }
 
 .btn-next{

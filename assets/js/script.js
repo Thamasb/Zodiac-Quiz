@@ -22,28 +22,28 @@ function startQuiz(questions) {
     scoreEl.innerHTML = score;
     incorrectEl.innerHTML = incorrect;
     hideAllSections();
-    displayQuestion();
     quizArea.classList.add("active");
+    displayQuestion();
 }
 
-function displayQuestion(){
-    if (currentQuestion + 1 > questionSet.length){
+function displayQuestion() {
+    if (currentQuestion + 1 > questionSet.length) {
         gameOver();
         return;
     }
     questionText.innerHTML = questionSet[currentQuestion].question;
-    for (let i = 0; i + 1  <= answerButtons.length; i++){
+    for (let i = 0; i + 1 <= answerButtons.length; i++) {
         answerButtons[i].classList.remove("correct");
         answerButtons[i].classList.remove("wrong");
         answerButtons[i].innerHTML = questionSet[currentQuestion].choices[i];
         answerButtons[i].onclick = function () {
             checkAnswer(this);
         };
-        nextButton.onclick = function (){
+        nextButton.onclick = function () {
             currentQuestion++;
             nextButton.style.display = "none";
             displayQuestion();
-        };            
+        };
     }
 }
 
@@ -58,18 +58,30 @@ function checkAnswer(btn) {
         answerButtons[correctIndex].classList.add("correct");
         incrementWrongAnswer();
     }
-    for (let i = 0; i + 1 <= answerButtons.length; i++){
+    for (let i = 0; i + 1 <= answerButtons.length; i++) {
         answerButtons[i].onclick = null;
     }
     nextButton.style.display = "block";
 }
 
-function incrementWrongAnswer(){
+function incrementScore() {
+    score++;
+    scoreEl.innerHTML = score;
+}
+
+function incrementWrongAnswer() {
     incorrect++;
     incorrectEl.innerHTML = incorrect;
 }
 
-function incrementScore(){
-    score ++;
-    scoreEl.innerHTML = score;
+
+function hideAllSections(){
+    startArea.classList.remove("active");
+    quizArea.classList.remove("active");
+    quizResult.classList.remove("active");
+}
+
+function gameOver(){
+    hideAllSections();
+    quizResult.classList.add("active");
 }
