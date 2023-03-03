@@ -16,11 +16,11 @@ startArea.classList.add("active");
 
 function startQuiz(questions) {
     score = 0;
-    incore = 0;
-    questionSet = questions;
-    score.ElinnerHTML = score;
-    incorrectEl.innerHTML = incorrect;
+    incorrect = 0;
     currentQuestion = 0;
+    questionSet = questions;
+    scoreEl.innerHTML = score;
+    incorrectEl.innerHTML = incorrect;
     hideAllSections();
     displayQuestion();
     quizArea.classList.add("active");
@@ -47,7 +47,7 @@ function displayQuestion(){
     }
 }
 
-function checkAnswer(btn){
+function checkAnswer(btn) {
     let correctAns = questionSet[currentQuestion].correct;
     if (correctAns === btn.innerHTML) {
         btn.classList.add("correct");
@@ -70,5 +70,6 @@ function incrementWrongAnswer(){
 }
 
 function incrementScore(){
-
+    score ++;
+    scoreEl.innerHTML = score;
 }

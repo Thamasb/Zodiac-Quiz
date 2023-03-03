@@ -55,7 +55,7 @@ section#welcome button:hover{
 /*section{
     display: none;
 }
-
+*/
 section.active{
     display: block;
     opacity: 0;
@@ -70,15 +70,26 @@ section.active{
     100%{
         opacity: 1;
     }
-}*/
+}
 
 section#quiz-area h1{
     font-size: 50px;
     margin: 5px;
 }
 
+button.btn-answer{
+    display: block;
+    margin: 15px auto;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 50%;
+    max-width: 300px;
+    cursor: pointer
+}
+
 .btn-next{
-    /*display: none;*/
+    display: none;
     margin: 0 20px;
     padding: 8px 23px;
     border-radius: 5px;
