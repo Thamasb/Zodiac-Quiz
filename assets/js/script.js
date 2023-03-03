@@ -34,13 +34,21 @@ function displayQuestion(){
     questionText.innerHTML = questionSet[currentQuestion].question;
     for (let i = 0; i + 1  <= answerButtons.length; i++){
         answerButtons[i].classList.remove("correct");
-        ans
-            innerHTML = questionSet[currentQuestion].choices[i];
+        answerButtons[i].classList.remove("wrong");
+        answerButtons[i].innerHTML = questionSet[currentQuestion].choices[i];
+        answerButtons[i].onclick = function () {
+            checkAnswer(this);
+        };
+        nextButton.onclick = function (){
+            currentQuestion++;
+            nextButton.style.display = "none";
+            displayQuestion();
+        };            
     }
 }
 
 function checkAnswer(btn){
-    
+
 }
 
 function incrementScore(){
