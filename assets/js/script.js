@@ -48,13 +48,27 @@ function displayQuestion(){
 }
 
 function checkAnswer(btn){
-
-}
-
-function incrementScore(){
-
+    let correctAns = questionSet[currentQuestion].correct;
+    if (correctAns === btn.innerHTML) {
+        btn.classList.add("correct");
+        incrementScore();
+    } else {
+        let correctIndex = questionSet[currentQuestion].choices.indexOf(correctAns);
+        btn.classList.add("wrong");
+        answerButtons[correctIndex].classList.add("correct");
+        incrementWrongAnswer();
+    }
+    for (let i = 0; i + 1 <= answerButtons.length; i++){
+        answerButtons[i].onclick = null;
+    }
+    nextButton.style.display = "block";
 }
 
 function incrementWrongAnswer(){
+    incorrect++;
+    incorrectEl.innerHTML = incorrect;
+}
+
+function incrementScore(){
 
 }
