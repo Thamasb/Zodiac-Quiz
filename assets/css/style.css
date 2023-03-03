@@ -51,10 +51,10 @@ section#welcome h1{
 section#welcome button:hover{
     color: white;
 }
-
+/*
 section{
     display: none;
-}
+}*/
 
 section.active{
     display: block;
@@ -119,3 +119,24 @@ button#restart{
     color: black;
 }
  
+.score-area{
+    font-size: 31px;
+}
+
+span#score{
+    color: #2ecc71;
+    display: inline-block;
+    padding: 0 10px;
+    background: #fff;
+    border-radius: 5px;
+    min-width: 25px;
+}
+
+span#incorrect{
+    color: #e74c3c;
+    display: inline-block;
+    padding: 0 10px;
+    background: #fff;
+    border-radius: 5px;
+    min-width: 25px;
+}
