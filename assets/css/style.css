@@ -100,7 +100,7 @@ button.btn-answer.wrong{
 
 .btn-next{
     display: none;
-    margin: 0 20px;
+    margin: 20px auto;
     padding: 8px 23px;
     border-radius: 5px;
     font-size: 20px;
