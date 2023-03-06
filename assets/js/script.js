@@ -13,7 +13,7 @@ let currentQuestion;
 let questionSet;
 
 startArea.classList.add("active");
-
+//Start quiz game with questions and name provided, set the selected questons, reset the points
 function startQuiz(questions) {
     score = 0;
     incorrect = 0;
@@ -25,7 +25,7 @@ function startQuiz(questions) {
     quizArea.classList.add("active");
     displayQuestion();
 }
-
+//Show the current quiz questions
 function displayQuestion() {
     if (currentQuestion + 1 > questionSet.length) {
         gameOver();
@@ -46,7 +46,7 @@ function displayQuestion() {
         };
     }
 }
-
+//Check answer button when clicked, shows the correct and incorrect answers
 function checkAnswer(btn) {
     let correctAns = questionSet[currentQuestion].correct;
     if (correctAns === btn.innerHTML) {
@@ -63,12 +63,12 @@ function checkAnswer(btn) {
     }
     nextButton.style.display = "block";
 }
-
+//Show the score of correct answers
 function incrementScore() {
     score++;
     scoreEl.innerHTML = score;
 }
-
+//Show the score of incorrect answers
 function incrementWrongAnswer() {
     incorrect++;
     incorrectEl.innerHTML = incorrect;
@@ -80,7 +80,7 @@ function hideAllSections(){
     quizArea.classList.remove("active");
     quizResult.classList.remove("active");
 }
-
+//Hide all screen and show the result screen
 function gameOver(){
     hideAllSections();
     quizResult.classList.add("active");
