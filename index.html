@@ -12,29 +12,42 @@
 </head>
 
 <body>
-    <section id="welcome">
+    <section class="section-quiz" id="section-quiz">
+        <div class="quiz-wrapper">
+
+    <div id="welcome">
         <h1 class="heading">Welcome to the Zodiac Quiz!</h1>
         <h2>Pick a category:</h2>
         <button id="zodiac" onclick="startQuiz(zodiac)">Zodiac</button>
         <button id="stars" onclick="startQuiz(stars)">Stars</button>
-    </section>
-    <section id="quiz-area">
+    </div>
+
+
+
+    <div id="quiz-area">
         <h1 id="question-text"></h1>
         <h2>Choose the correct answer</h2>
         <button class="btn-answer">Answer</button>
         <button class="btn-answer">Answer</button>
         <button class="btn-answer">Answer</button>
         <button id="btn-next" class="btn-next">Next</button>
-    </section>
-    <section id="quiz-result"> 
+    </div>
+
+
+    <div id="quiz-result"> 
         <h2>Your results</h2>
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
+    </div>
+
     <div>
         <button id="restart" onclick="restartQuiz()">Restart</button>
     </div>
+
+</div>
+
     </section>
     
     <script src="assets/js/script.js"></script>
