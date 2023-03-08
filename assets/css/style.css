@@ -24,7 +24,7 @@ body{
 }
 
 h1{ 
-    font-size: 170%;
+    font-size: 130%;
 }
 
 section#section-quiz {
@@ -38,7 +38,7 @@ section#section-quiz {
     padding: 30px 15px;
     border: 2px solid #000;
     border-radius: 20px;
-    min-height: 600px;
+    min-height: 593px;
     display: flex;
     position: relative;
     text-align: center;
@@ -61,12 +61,12 @@ div#quiz-result{
 }
 
 #zodiac:hover{
-    background-color:  green;
+    background-color:  grey;
     font-family: "Tilt Neon", sans-serif;
 }
 
 #stars:hover{
-    background-color:  green;
+    background-color:  grey;
     font-family: "Tilt Neon", sans-serif;
 }
 
@@ -80,7 +80,7 @@ div#quiz-result{
     font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
     border-radius: 6px;
-    border: 2px solid black;
+    border: 2px solid #000;
     margin: 0 20px;
 }
 
@@ -131,12 +131,12 @@ button.btn-answer{
 
 button.btn-answer.correct{
     background: #2ecc71;
-    color: #fff;
+    color: white;
 }
 
 button.btn-answer.wrong{
     background: #e74c3c;
-    color: #fff;
+    color: white;
 }
 
 .btn-next{
@@ -147,8 +147,8 @@ button.btn-answer.wrong{
     font-size: 20px;
     font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
-    background: #ecf0f1;
-    color: black;
+    background: white;
+    color: #000;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -157,8 +157,8 @@ button.btn-answer.wrong{
 
 .btn-next:hover,
 button#restart:hover{
-    background: #444;
-    color: #fff;
+    background: grey;
+    color: white;
     font-family: "Tilt Neon", sans-serif;
 }
 button#restart{
@@ -168,8 +168,8 @@ button#restart{
     font-size: 20px;
     font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
-    background: #ecf0f1;
-    color: black;
+    background: white;
+    color: #000;
 }
  
 .score-area{
@@ -180,7 +180,7 @@ span#score{
     color: #2ecc71;
     display: inline-block;
     padding: 0 10px;
-    background: #fff;
+    background: white;
     border-radius: 5px;
     min-width: 25px;
 }
@@ -189,7 +189,7 @@ span#incorrect{
     color: #e74c3c;
     display: inline-block;
     padding: 0 10px;
-    background: #fff;
+    background: white;
     border-radius: 5px;
     min-width: 25px;
 }
@@ -217,7 +217,7 @@ span#incorrect{
     background: transparent;
     border: 0;
     cursor: pointer;
-    color: #fff;
+    color: white;
     position: absolute;
     right: -10px;
     top: -25px;
@@ -227,7 +227,7 @@ input#username{
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
     border: 3px solid #000;
-    background: #ffffffb8;
+    background: white;
     border-radius: 6px;
     padding: 5px 10px;
     text-align: center;
