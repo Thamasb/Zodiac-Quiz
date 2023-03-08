@@ -3,6 +3,7 @@
 *{
     margin: 5px;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 html{
@@ -12,7 +13,7 @@ html{
 body{
    font-family: "Tilt Neon", sans-serif;
    font-weight: 300;
-   background: #000 url("../images/pexels-pixabay-2150.jpg");
+   background: #000 url("../images/universe.jpg");
    background-size:cover;
    background-attachment: fixed;
    background-position: center;
@@ -36,6 +37,8 @@ section#section-quiz {
     margin: 0 auto;
     padding: 30px 15px;
     border: 2px solid #000;
+    border-radius: 20px;
+    min-height: 600px;
     display: flex;
     position: relative;
     text-align: center;
@@ -48,6 +51,8 @@ div#welcome{
 div#quiz-area{
     margin: 0 auto;
     width: 100%;
+    position: relative;
+    padding-bottom: 70px;
 }
 
 div#quiz-result{
@@ -141,13 +146,17 @@ button.btn-answer.wrong{
 
 .btn-next{
     display: none;
-    margin: 20px auto;
-    padding: 8px 23px;
+    margin: 15px auto;
+    padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
     background: #ecf0f1;
     color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
 }
 
 .btn-next:hover,
