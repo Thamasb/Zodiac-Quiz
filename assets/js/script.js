@@ -94,6 +94,8 @@ function gameOver(){
 
 function restartQuiz(){
     hideAllSections();
+    sectionQuizEl.classList.remove("zodiac");
+    sectionQuizEl.classList.remove("stars");
     startArea.classList.add("active");
 }
 
