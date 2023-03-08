@@ -8,6 +8,9 @@ let scoreEl = document.getElementById("score");
 let incorrectEl = document.getElementById("incorrect");
 let quizProgressEl = document.getElementById("quiz-progress");
 let sectionQuizEl = document.getElementById("section-quiz");
+let resultCommentEl = document.getElementById("result-comment");
+let usernameInputEl = document.getElementById("username");
+let usernameOutputEl = document.getElementById("username-output");
 
 let score;
 let incorrect;
@@ -90,7 +93,26 @@ function hideAllSections(){
 function gameOver(){
     hideAllSections();
     quizResult.classList.add("active");
+    let comment = "";
+
+    if (score >= 12) {
+        comment = "Congratulation you are excellent in astrology.";
+    } else if (score > 6){
+        comment = "You are good in astrology.";
+    } else if ( score >0){
+        comment = "You are doing well, try it again.";
+    } else {
+        comment = "Don’t cry, try it again.";
+    }
+    resultCommentEl.innerHTML = comment;
+
+    if (usernameInputEl.value) {
+        usernameOutputEl.innerHTML = usernameInputEl.value;
+    } else {
+        usernameOutputEl.innerHTML = "";
+    }
 }
+
 
 function restartQuiz(){
     hideAllSections();
