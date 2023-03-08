@@ -181,7 +181,9 @@ span#incorrect{
     border-radius: 5px;
     min-width: 25px;
 }
-
+ .quiz-progress{
+    font-size: 18px;
+ }
 .quiz-rules{
     font-size: 25px;
 }
