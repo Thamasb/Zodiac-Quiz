@@ -12,9 +12,12 @@ html{
 body{
    font-family: "Tilt Neon", sans-serif;
    font-weight: 300;
-   background-color: #00ADAD;
-   text-align: center; 
+   background: #000 url("../images/pexels-pixabay-2150.jpg");
+   background-size:cover;
+   background-attachment: fixed;
+   background-position: center;
    padding: 2%;
+   padding-top: 0;
    margin: 0;
    border-radius: 15%;
 }
@@ -34,7 +37,17 @@ section#section-quiz {
     padding: 30px 15px;
     border: 2px solid #000;
     display: flex;
+    position: relative;
+    text-align: center;
+}
 
+div#welcome{
+    align-self: center;
+}
+
+div#quiz-area{
+    margin: 0 auto;
+    width: 100%;
 }
 
 #zodiac:hover{
@@ -106,7 +119,7 @@ button.btn-answer{
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
-    width: 50%;
+    width: 90%;
     max-width: 300px;
     cursor: pointer
 }
