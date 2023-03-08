@@ -15,48 +15,52 @@
     <section class="section-quiz" id="section-quiz">
         <div class="quiz-wrapper">
 
-    <div id="welcome">
-        <h1 class="heading">Welcome to the Zodiac Quiz!</h1>
-        <input
-        type="text"
-        id="username"
-        class="username"
-        placeholder="Enter username">
+            <div id="welcome">
+                <h1 class="heading">Welcome to the Zodiac Quiz!</h1>
+                <input type="text" id="username" class="username" placeholder="Enter username">
 
-        <h2>Pick a category:</h2>
-        <button id="zodiac" onclick="startQuiz(zodiac, 'zodiac')">Zodiac</button>
-        <button id="stars" onclick="startQuiz(stars, 'stars')">Stars</button>
-    </div>
+                <h2>Pick a category:</h2>
+                <button id="zodiac" onclick="startQuiz(zodiac, 'zodiac')">Zodiac</button>
+                <button id="stars" onclick="startQuiz(stars, 'stars')">Stars</button>
+            </div>
+
+            <div id="quiz-area">
+                <h1 id="question-text"></h1>
+
+                <div class="quiz-rules">
+                    <p></p>
+                    <p></p>
+                    
+                </div>
+
+                <h2>Choose the correct answer</h2>
+                <button class="btn-answer">Answer</button>
+                <button class="btn-answer">Answer</button>
+                <button class="btn-answer">Answer</button>
+                <button id="btn-next" class="btn-next">Next</button>
+            </div>
 
 
+            <div id="quiz-result">
+                
+                <h2>Your results</h2>
 
-    <div id="quiz-area">
-        <h1 id="question-text"></h1>
-        <h2>Choose the correct answer</h2>
-        <button class="btn-answer">Answer</button>
-        <button class="btn-answer">Answer</button>
-        <button class="btn-answer">Answer</button>
-        <button id="btn-next" class="btn-next">Next</button>
-    </div>
+                <div class="score-area">
+                    <p class="scores">Correct Answers <span id="score">0</span></p>
+                    <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+                </div>
 
 
-    <div id="quiz-result"> 
-        <h2>Your results</h2>
-    <div class="score-area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
-    </div>
-
-    <div>
-        <button id="restart" onclick="restartQuiz()">Restart</button>
-    </div>
-
-</div>
+                <div>
+                    <button id="restart" onclick="restartQuiz()">Restart</button>
+                </div>
+            </div>
+        </div>
 
     </section>
-    
+
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
 </body>
+
 </html>
