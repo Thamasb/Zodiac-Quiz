@@ -65,14 +65,15 @@ questions which is includes the zodiac names and 3 answer options, the Stars que
 
 | Color / Hex             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Black / #000000 | ![#cccccc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/chinesesilver_obaj29.png)  |
-| White / #ffffff | ![#aacecc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/pastelblue_vfhpse.png)  |
-| Grey/ #41836D | ![#41836D](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/deepaquamarine_hvyas5.png)  |
-| UFO Green / #2ECC71 | ![#163635](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/mediumjunglegreen_m9taob.png)  |
-| Carmine Pink / #E74C3C| ![#000000](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
-| Green (Munsell) / #| ![#00AD85](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
+| Black / #000000 | ![#cccccc](https://res.cloudinary.com/duxsycizt/image/upload/v1678312700/zodiac-quiz/black1_rkv257.png)  |
+| White / #ffffff | ![#aacecc](https://res.cloudinary.com/duxsycizt/image/upload/v1678311926/zodiac-quiz/white_y5bshj.png)  |
+| Grey/ #41836D | ![#41836D](https://res.cloudinary.com/duxsycizt/image/upload/v1678312858/zodiac-quiz/grey1_rhny7i.png)  |
+| UFO Green / #2ECC71 | ![#163635](https://res.cloudinary.com/duxsycizt/image/upload/v1678312062/zodiac-quiz/ufo-green_k9jqh6.png)  |
+| Carmine Pink / #E74C3C| ![#000000](https://res.cloudinary.com/duxsycizt/image/upload/v1678311925/zodiac-quiz/carmine-pink_bas7hr.png) |
+| Green (Munsell) / #00AD85| ![#00AD85](https://res.cloudinary.com/duxsycizt/image/upload/v1678311926/zodiac-quiz/munsellgreen_gwlxjr.png) |
+| Red / #00FFF| ![#00FFF](https://res.cloudinary.com/duxsycizt/image/upload/v1678313385/zodiac-quiz/red_mdsik9.png) |
 
-One main color used on the website im the game bakground is Green (Munsell) (#00AD85). The letter color is Black (#000000). The hover effect color in the menu is Grey (#41836D), correct answer background color is Carmine Pink (#E74C3C), incorrect answer background color is UFO Green (#2ECC71). 
+One main color used on the website, the game bakground is Green (Munsell) (#00AD85). The letter color is Black (#000000). The hover effect color in the menu is Grey (#41836D), correct answer background color is Carmine Pink (#E74C3C), incorrect answer background color is UFO Green (#2ECC71). 
 
 
 ## Typography
@@ -85,12 +86,12 @@ One main color used on the website im the game bakground is Green (Munsell) (#00
 
 The letter color and the letter background color contartasts are passed at the [contrast check](https://webaim.org/resources/contrastchecker/). The contrast ratio is 7.31:1.
 
-![Validator](https://res.cloudinary.com/)
+![Validator](https://res.cloudinary.com/duxsycizt/image/upload/v1678313044/zodiac-quiz/contrast-ratio_nalbyh.png)
 
 
 ## Wireframes
 
-To design the website structure [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA5sieBhBnEiwAR9oh2jXxzdyaa1Fh2LCEZZpNvG6IYIC0ytSczGhuIb-dPb-zW9LQK0dkOxoCli4QAvD_BwE) wireframing tool has been used.
+To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop/free-trial-download.html) has been used.
 
 ### Desktop appearance 
 |              |                                                            |

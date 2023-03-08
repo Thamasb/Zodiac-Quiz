@@ -46,7 +46,7 @@ function displayQuestion() {
     }
     questionText.innerHTML = questionSet[currentQuestion].question;
     let questionNumber = currentQuestion +1;
-    quizProgressEl.innerHTML = questionNumber + "of" + questionSet.length;
+    quizProgressEl.innerHTML = questionNumber + " of " + questionSet.length;
     for (let i = 0; i + 1 <= answerButtons.length; i++) {
         answerButtons[i].classList.remove("correct");
         answerButtons[i].classList.remove("wrong");
