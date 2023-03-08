@@ -6,6 +6,7 @@ let nextButton = document.getElementById("btn-next");
 let quizResult = document.getElementById("quiz-result");
 let scoreEl = document.getElementById("score");
 let incorrectEl = document.getElementById("incorrect");
+let quizProgressEl = document.getElementById("quiz-progress")
 
 let score;
 let incorrect;
@@ -14,15 +15,17 @@ let questionSet;
 
 startArea.classList.add("active");
 //Start quiz game with questions and name provided, set the selected questons, reset the points
-function startQuiz(questions) {
+function startQuiz(questions, name) {
     score = 0;
     incorrect = 0;
     currentQuestion = 0;
     questionSet = questions;
+    shuffleArray(questionSet);
     scoreEl.innerHTML = score;
     incorrectEl.innerHTML = incorrect;
     hideAllSections();
     quizArea.classList.add("active");
+
     displayQuestion();
 }
 //Show the current quiz questions
@@ -32,6 +35,8 @@ function displayQuestion() {
         return;
     }
     questionText.innerHTML = questionSet[currentQuestion].question;
+    let questionNumber = currentQuestion +1;
+    quizProgressEl.innerHTML = questionNumber + "of" + questionSet.length;
     for (let i = 0; i + 1 <= answerButtons.length; i++) {
         answerButtons[i].classList.remove("correct");
         answerButtons[i].classList.remove("wrong");
