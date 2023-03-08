@@ -62,10 +62,12 @@ div#quiz-result{
 
 #zodiac:hover{
     background-color:  green;
+    font-family: "Tilt Neon", sans-serif;
 }
 
 #stars:hover{
     background-color:  green;
+    font-family: "Tilt Neon", sans-serif;
 }
 
 .btn-answer:hover{
@@ -75,6 +77,7 @@ div#quiz-result{
 #welcome button{
     padding: 8px 23px;
     font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
     border-radius: 6px;
     border: 2px solid black;
@@ -120,6 +123,7 @@ button.btn-answer{
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
     width: 90%;
     max-width: 300px;
     cursor: pointer
@@ -141,6 +145,7 @@ button.btn-answer.wrong{
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
     background: #ecf0f1;
     color: black;
@@ -154,12 +159,14 @@ button.btn-answer.wrong{
 button#restart:hover{
     background: #444;
     color: #fff;
+    font-family: "Tilt Neon", sans-serif;
 }
 button#restart{
     margin: 15px auto;
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
     cursor: pointer;
     background: #ecf0f1;
     color: black;
