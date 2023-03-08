@@ -6,7 +6,8 @@ let nextButton = document.getElementById("btn-next");
 let quizResult = document.getElementById("quiz-result");
 let scoreEl = document.getElementById("score");
 let incorrectEl = document.getElementById("incorrect");
-let quizProgressEl = document.getElementById("quiz-progress")
+let quizProgressEl = document.getElementById("quiz-progress");
+let sectionQuizEl = document.getElementById("section-quiz");
 
 let score;
 let incorrect;
@@ -25,7 +26,7 @@ function startQuiz(questions, name) {
     incorrectEl.innerHTML = incorrect;
     hideAllSections();
     quizArea.classList.add("active");
-
+    sectionQuizEl.classList.add(name.toLowerCase());
     displayQuestion();
 }
 //Show the current quiz questions
