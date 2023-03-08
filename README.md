@@ -1,9 +1,14 @@
-# KGY VISUAL 
+# ZODIAC QUIZ 
 
 ![Zodiac Quiz](https://res.cloudinary.com/) 
 
+## Introduction
+The zodiac is a belt-shaped region of the sky that extends approximately 8° north and south (as measured in celestial latitude) of the ecliptic, which is the apparent path of the Sun across the celestial sphere over the course of the year. The orbital paths of the Moon and major planets are within the belt of the zodiac
+Although the zodiac remains the basis of the ecliptic coordinate system in use in astronomy besides the equatorial one, the term and the names of the twelve signs are today mostly associated with horoscopic astrology. The term "zodiac" may also refer to the region of the celestial sphere encompassing the paths of the planets corresponding to the band of about 8 arc degrees above and below the ecliptic. The zodiac of a given planet is the band that contains the path of that particular body; e.g., the "zodiac of the Moon" is the band of 5° above and below the ecliptic. By extension, the "zodiac of the comets" may refer to the band encompassing most short-period comets.
 
-Zodiac Quiz is a quiz game. 
+In this Zodiac Quiz the users can play and check their knwoledge. If the users ready to check it their knowledge they can choose Zodiac or Stars subjects. The website help to memorize the correct answers in each subjects and also joyful.
+
+questions which is includes the zodiac names and 3 answer options, the Stars questions inculdes . 
 
 # Table of contents
 - User Experience
@@ -35,33 +40,39 @@ Zodiac Quiz is a quiz game.
 
 # User Experience
 
+
 ## Project Goals
 
-- The website presents the Visual Effect Artist, his services, references and contact informations.
+- The quiz app allows the knowledge of students in the topic of Zodiac.
 - The design is clear and simple.
+- The quiz helps to memorize the correct answers and also give feedback at the end of the game.
 
 ## User Stories
 
-- As a customer I want to be able to navigate easy at the website.
-- As a customer I want to be able to start a game.
-- As a customer I want to be able to choose a game option (Zodiac or Stars).
-- As a customer I want to be able to choose one answer.
-- As a customer I want to be able to check the correct/incorrect answers.
-- As a customer I want to be able to check my score.
-- As a customer I want to be able to restart a game.
+- As a user I want to be able to navigate easy at the website.
+- As a user I want to be able to start a game.
+- As a user I want to be able to exit to the game.
+- As a user I want to be able to choose a game option (Zodiac or Stars).
+- As a user I want to be able to choose one answer.
+- As a user I want to be able to check the correct/incorrect answers.
+- As a user I want to be able to check my score.
+- As a user I want to be able to restart a game.
+- As a user I want to be able to give feedback.
+- As a user I want to send a feedback.
 
 
 ## Color Reference
 
 | Color / Hex             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Chinese Silver / #cccccc | ![#cccccc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/chinesesilver_obaj29.png)  |
-| Pastel Blue / #aacecc | ![#aacecc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/pastelblue_vfhpse.png)  |
-| Deep Aquamarine / #41836D | ![#41836D](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/deepaquamarine_hvyas5.png)  |
-| Medium Jungle Green / #163635 | ![#163635](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/mediumjunglegreen_m9taob.png)  |
-Black / #000000| ![#000000](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
+| Black / #000000 | ![#cccccc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/chinesesilver_obaj29.png)  |
+| White / #ffffff | ![#aacecc](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/pastelblue_vfhpse.png)  |
+| Grey/ #41836D | ![#41836D](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/deepaquamarine_hvyas5.png)  |
+| UFO Green / #2ECC71 | ![#163635](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/mediumjunglegreen_m9taob.png)  |
+| Carmine Pink / #E74C3C| ![#000000](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
+| Green (Munsell) / #| ![#00AD85](https://res.cloudinary.com/duxsycizt/image/upload/v1674751865/kgy-visual/black_yb4vy1.png) |
 
-Two main colors used on the website, the background is Pastel Blue (#aacecc) and the menu bakground is Medium Jungle Green (#163635). The letter color is Chinese Silver (#cccccc) and the alternative color is black (#000000). The hover effect color in the menu is Deep Aquamarine (#41836D). 
+One main color used on the website im the game bakground is Green (Munsell) (#00AD85). The letter color is Black (#000000). The hover effect color in the menu is Grey (#41836D), correct answer background color is Carmine Pink (#E74C3C), incorrect answer background color is UFO Green (#2ECC71). 
 
 
 ## Typography
@@ -72,7 +83,7 @@ Two main colors used on the website, the background is Pastel Blue (#aacecc) and
 
 ## Font-Color Contrast
 
-The letter color and the letter background color contartasts are passed at the [contrast check](https://webaim.org/resources/contrastchecker/). The contrast ratio is ...... .
+The letter color and the letter background color contartasts are passed at the [contrast check](https://webaim.org/resources/contrastchecker/). The contrast ratio is 7.31:1.
 
 ![Validator](https://res.cloudinary.com/)
 
@@ -248,8 +259,7 @@ To design the website structure [Balsamiq](https://balsamiq.com/wireframes/?gcli
 | Index   | ![Index](https://res.cloudinary.com/)  |
 
 
-You can visit the deployeded website [here](https://thamasb.github.io/zodiac-qiuz/).
-
+You can visit the deployeded website [here](https://thamasb.github.io/Zodiac-Quiz/).
 
 # Deployment
 
@@ -279,10 +289,11 @@ You can clone or forked this repository from [GitHub.com](https://github.com/) t
 ## Content
 
 - All content was written by the developer.
+- [Wikipedia](https://en.wikipedia.org/wiki/Zodiac) Introduction content in readme file.
     
 ## Media
 
-- [Pexels](https://www.pexels.com/photo/) Free to use photo: 
+- [Pexels](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/) Free to use photo: 
 
 
 
