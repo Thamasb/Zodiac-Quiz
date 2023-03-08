@@ -44,6 +44,13 @@ section#section-quiz {
     text-align: center;
 }
 
+#no-username{
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
 div#welcome{
     align-self: center;
 }
@@ -233,7 +240,7 @@ input#username{
     text-align: center;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:420px){
     button.btn-answer {
         font-size: 15px;
     }

@@ -12,6 +12,8 @@ let resultCommentEl = document.getElementById("result-comment");
 let usernameInputEl = document.getElementById("username");
 let usernameOutputEl = document.getElementById("username-output");
 
+const noUsername = document.getElementById('no-username');
+
 let score;
 let incorrect;
 let currentQuestion;
@@ -20,6 +22,10 @@ let questionSet;
 startArea.classList.add("active");
 //Start quiz game with questions and name provided, set the selected questons, reset the points
 function startQuiz(questions, name) {
+    if (usernameInputEl.value.length === 0) {
+        noUsername.style.display = 'block';
+        return;
+    }
     score = 0;
     incorrect = 0;
     currentQuestion = 0;
