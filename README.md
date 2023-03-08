@@ -284,7 +284,10 @@ You can visit the deployeded website [here](https://thamasb.github.io/Zodiac-Qui
 
 # Bugs
 
-- I missed a cpital letter in JavaSript file, after I found it 
+- I missed a cpital letter in JavaSript file, after when I found it the quiz worked again..
+- After Jshint validation I found missing semicolons in JavasCript file, all of the solved.
+- After Jshint validation I checked all of the warnings and mosty of them solved.
+- During the manual test I discovered when I started the game without username and the warning message pops up, later when I finished the game and restart it, the warning message was still there and also the username. 
 
 # Deployment
 
