@@ -98,15 +98,6 @@ div#quiz-result{
     opacity: 0;
     animation: fadeIn 0.5s 0.5s ease-in forwards;
 }
-/*section{
-    display: none;
-}*/
-
-/*section.active{
-    display: block;
-    opacity: 0;
-    animation: fadeIn 0.5s 0.5s ease-in forwards;
-}*/
 
 @keyframes fadeIn{
     0%{
@@ -165,8 +156,8 @@ button#restart:hover{
     color: #fff;
 }
 button#restart{
-    margin: 0 20px;
-    padding: 8px 23px;
+    margin: 15px auto;
+    padding: 12px 20px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
@@ -233,5 +224,10 @@ input#username{
     border-radius: 6px;
     padding: 5px 10px;
     text-align: center;
+}
 
+@media screen and (max-width:500px){
+    button.btn-answer {
+        font-size: 15px;
+    }
 }
