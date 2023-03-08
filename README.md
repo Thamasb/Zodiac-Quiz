@@ -20,9 +20,13 @@ questions which is includes the zodiac names and 3 answer options, the Stars que
     - Wireframes
 - Features
     - Categories
-    - Anwers
-    - Scores
+    - Anwers 
+    - Task
+    - Results
+    - Next
+    - Exit
     - Restart
+    - Feedback
 - Technologies used
     - Languages
     - Programs, frameworks
@@ -32,6 +36,7 @@ questions which is includes the zodiac names and 3 answer options, the Stars que
     - Accessibility, responsibility, layout
     - Manual testing
 - The finished Website
+- Bugs
 - Deployment
 - Credits
     - Content
@@ -96,7 +101,7 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 ### Desktop appearance 
 |              |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/  |
+| Index   | ![Index](https://res.cloudinary.com/)  |
 
 ### Mobile appearance 
 |             |                                                            |
@@ -106,28 +111,44 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 # Features
 
-- Simple clear and similar color scheme and responsive design
+- Simple, clear color scheme and responsive design.
 
 ### Categories
 
 - Two categories of questions 'Zodiac', 'Stars'.
 
-    ![Header](https://res.cloudinary.com/)
+    ![Header](https://res.cloudinary.com/duxsycizt/image/upload/v1678313957/zodiac-quiz/menu_qzd3mg.png)
 
 ### Answers
 - Three answer option buttons.
 
-    ![Answers](https://res.cloudinary.com/)
+    ![Answers](https://res.cloudinary.com/duxsycizt/image/upload/v1678314077/zodiac-quiz/answers_n5yypf.png)
 
-### Scores
- The scores shows up the numbers of the correct and incorrect answers.
+### Task
+- The task is on the top.
 
-    ![Scores](https://res.cloudinary.com/)
+    ![Task](https://res.cloudinary.com/duxsycizt/image/upload/v1678314575/zodiac-quiz/task_xotpc2.png)
+
+
+### Results
+- The results shows up the numbers of the correct and incorrect answers at the end of the game.
+
+    ![Scores](https://res.cloudinary.com/duxsycizt/image/upload/v1678314842/zodiac-quiz/results_wcp7gq.png)
+
+### Next
+- The next button helps to move for the next question. The button pop up when the user choosed an answer.
+
+    ![Next](https://res.cloudinary.com/duxsycizt/image/upload/v1678315065/zodiac-quiz/Next_xziz5m.png)
+
+### Exit
+- The exit button is help to quit the game to the start.
+
+    ![Exit](https://res.cloudinary.com/duxsycizt/image/upload/v1678315342/zodiac-quiz/exit_tqwsgv.png)
 
 ### Restart
 - One 'Restart' buttom restart the game and the scores.
 
-    ![Restart](https://res.cloudinary.com/)
+    ![Restart](https://res.cloudinary.com/duxsycizt/image/upload/v1678315232/zodiac-quiz/restart_gk1ewt.png)
     
 
 
@@ -144,7 +165,6 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
  
  - [Adobe Color](https://color.adobe.com/create/color-wheel)
  - [Am I responsive](https://ui.dev/amiresponsive)
- - [Balsamiq](https://balsamiq.com/)
  - [Chorme DevTools](https://developer.chrome.com/docs/devtools/)
  - [Cloudinary](https://cloudinary.com/?&utm_campaign=1329&utm_content=instapagelogocta-selfservetest)
  - [Colormind](colormind.io)
@@ -161,24 +181,22 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
  - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
  - [W3C MArkup Validator](https://validator.w3.org/)
  - [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/)
- - [JavaSript Validator ](https://)
+ - [JavaSript Validator ](https://jshint.com/)
  
 # Testing
 
-- As a customer I want to be able to start a game.
-    - 
-- As a customer I want to be able to choose a game option (Zodiac or Stars).
-    - The two buttons are help to choose an option.
-- As a customer I want to be able to choose one answer.
-    -
-- As a customer I want to be able to check the correct/incorrect answers.
-    -
-- As a customer I want to be able to check my score.
-    -
-- As a customer I want to be able to restart a game.
-    -
-- As a customer I want to be able to navigate easy at the website.
-    -
+- As a user I want to be able to navigate easy at the website.
+- As a user I want to be able to start a game.
+- As a user I want to be able to exit to the game.
+- As a user I want to be able to choose a game option (Zodiac or Stars).
+- As a user I want to be able to choose one answer.
+- As a user I want to be able to check the correct/incorrect answers.
+- As a user I want to be able to check my score.
+- As a user I want to be able to restart a game.
+- As a user I want to be able to give feedback.
+- As a user I want to send a feedback.
+
+
 
  
 
@@ -186,11 +204,13 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 - [W3C Markup Validator](https://validator.w3.org) is used to validate the html file, no errors or warnings are shown. 
 
-![HTML Code](https://res.cloudinary.com/)
+![HTML Code](https://res.cloudinary.com/duxsycizt/image/upload/v1678315743/zodiac-quiz/html-validator_kfqas6.png)
 
 - [The W3C CSS Validation Service](https://jigsaw.w3.org) is used to validate the CSS file, there were no errors found. 
 
-![CSS Code](https://res.cloudinary.com/)
+![CSS Code](https://res.cloudinary.com/duxsycizt/image/upload/v1678315743/zodiac-quiz/css-validator_a4fkcg.png)
+
+- [JShint](https://jshint.com/) is used to checked and validate the JavaSript file, there were no errors found.
 
 
 ## Accessibility, responiveness, layout
@@ -203,9 +223,9 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 ### Lighthouse Reports:
 
-![Desktop Version](https://res.cloudinary.com/)
+![Desktop Version](https://res.cloudinary.com/duxsycizt/image/upload/v1678315859/zodiac-quiz/lighthouse-pc_wy3nqx.png)
 
-![Phone Version](https://res.cloudinary.com/)
+![Phone Version](https://res.cloudinary.com/duxsycizt/image/upload/v1678315859/zodiac-quiz/lighthouse-sp_ctj4mr.png)
 
 ## Manual Testing
 
@@ -262,6 +282,10 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 You can visit the deployeded website [here](https://thamasb.github.io/Zodiac-Quiz/).
 
+# Bugs
+
+- I missed a cpital letter in JavaSript file, after I found it 
+
 # Deployment
 
 This website was developed using [GitPod](https://gitpod.io/workspaces) which was then committed and pushed to [GitHub.com](https://github.com/) using the [GitPod](https://gitpod.io/workspaces) terminal.
@@ -294,7 +318,7 @@ You can clone or forked this repository from [GitHub.com](https://github.com/) t
     
 ## Media
 
-- [Pexels](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/) Free to use photo: 
+- [Pexels](https://www.pexels.com/) Free to use photo: ![universe](https://res.cloudinary.com/duxsycizt/image/upload/v1678316179/zodiac-quiz/universe_utyj2c.jpg)
 
 
 
