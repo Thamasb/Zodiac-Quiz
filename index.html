@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,29 +9,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Zodiac-Stars Quiz</title>
 </head>
-
 <body>
     <section class="section-quiz" id="section-quiz">
         <div class="quiz-wrapper">
-
+            <!--Game start page, category options-->
             <div id="welcome">
                 <h1 class="heading">Welcome to the Zodiac Quiz!</h1>
                 <input type="text" id="username" class="username" placeholder="Enter username">
-
                 <h2>Pick a category:</h2>
                 <button id="zodiac" onclick="startQuiz(zodiac, 'zodiac')">Zodiac</button>
                 <button id="stars" onclick="startQuiz(stars, 'stars')">Stars</button>
             </div>
-
+            <!--Game rules and answer options-->
             <div id="quiz-area">
                 <button id="btn-close" class="btn-close" onclick="restartQuiz()">&times;
                 </button>
                 <h1 id="question-text"></h1>
                 <div class="quiz-rules">
                     <p class="rules-zodiac">Find the matching date for the Zodiac</p>
-                    <p class="rules-stars">Find which planet maching with the Zodiac</p>
+                    <p class="rules-stars">Find which planet matching with the Zodiac</p>
                 </div>
-
                 <h2>Choose the correct answer</h2>
                 <button class="btn-answer">Answer</button>
                 <button class="btn-answer">Answer</button>
@@ -40,7 +36,7 @@
                 <button id="btn-next" class="btn-next">Next</button>
                 <p id="quiz-progress" class="quiz-progress">1 of 12</p>
             </div>
-
+            <!--End of the game scores-->
             <div id="quiz-result">
                 <h1 id="username-output"></h1>
                 <h1 id="result-comment" class="result-comment"></h1>
@@ -49,16 +45,14 @@
                     <p class="scores">Correct Answers <span id="score">0</span></p>
                     <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
                 </div>
+                <!--Restart button-->
                 <div>
                     <button id="restart" onclick="restartQuiz()">Restart</button>
                 </div>
             </div>
         </div>
-
     </section>
-
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
 </body>
-
 </html>

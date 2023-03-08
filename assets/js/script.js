@@ -89,7 +89,7 @@ function hideAllSections(){
     quizArea.classList.remove("active");
     quizResult.classList.remove("active");
 }
-//Hide all screen and show the result screen
+//Hide all screen and show the result screen (player neme, comment, score)
 function gameOver(){
     hideAllSections();
     quizResult.classList.add("active");
