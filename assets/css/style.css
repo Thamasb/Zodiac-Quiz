@@ -182,6 +182,33 @@ span#incorrect{
     min-width: 25px;
 }
 
+.quiz-rules{
+    font-size: 25px;
+}
+
+.quiz-rules > p{
+    display: none;
+}
+
+.section-quiz.zodiac .rules-zodiac,
+.section-quiz.stars .rules-stars{
+    display: block;
+}
+
+.btn-close{
+    font-size: 58px;
+    line-height: 0.7;
+    padding: 5px 10px;
+    display: block;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: -10px;
+    top: -25px;
+}
+
 input#username{
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
