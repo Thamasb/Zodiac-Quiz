@@ -300,7 +300,7 @@ You can visit the deployeded website [here](https://thamasb.github.io/Zodiac-Qui
 - I missed a capital letter in JavaSript file, after when I found it the quiz worked again.
 - After Jshint validation I found missing semicolons in JavasCript file, all of the solved.
 - After Jshint validation I checked all of the warnings and most of them solved.
-- During the manual test I discovered when I started the game without username and the warning message pops up, later when I finished the game and restart it, the warning message was still there and also the username. 
+- During the manual test I discovered when I started the game without username and the warning message pops up, later when I finished the game and restart it, the warning message was still there and also the username, problem solved.
 - The feedback page didn't removed when I restarted the quiz. I solved this issue.
 - [Google Chrome Devtools](https://developer.chrome.com/docs/lighthouse/overview/) are showed a different practice or performance numbers during the tests and these numbers are also different another PC -witch is tested -.
 

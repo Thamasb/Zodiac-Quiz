@@ -67,14 +67,6 @@ function displayQuestion() {
         btn.classList.remove("correct");
         btn.classList.remove("wrong");
         btn.innerHTML = questionSet[currentQuestion].choices[i];
-        // }
-        //for (let i = 0; i + 1 <= answerButtons.length; i++) {
-        // answerButtons[i].classList.remove("correct");
-        // answerButtons[i].classList.remove("wrong");
-        // answerButtons[i].innerHTML = questionSet[currentQuestion].choices[i];
-        // answerButtons[i].onclick = function () {
-        //     checkAnswer(this);
-        //  };
         /**
          * Add next button event, increase quiestion index, hide next button, show question
          */
@@ -152,6 +144,8 @@ function gameOver() {
     } else {
         usernameOutputEl.innerHTML = "";
     }
+    noUsername.style.display = 'none';
+    usernameInputEl.value = '';
 }
 /**
  * Hide all screens and show start screen, remove quiz name.
