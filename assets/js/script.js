@@ -136,3 +136,13 @@ function shuffleArray(array){
         array[j] = temp;
     }
 }
+
+function openFeedback(){
+    hideAllSections();
+    quizFeedbackEl.classList.add("active");
+}
+
+window.addEventListener("DOMContentLoaded", function (){
+    startQuiz();
+    restartQuiz();
+});
