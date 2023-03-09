@@ -303,6 +303,20 @@ form.feedback-form label {
     position: static;
 }
 
+.butn-close{
+    font-size: 58px;
+    line-height: 0.7;
+    padding: 5px 10px;
+    display: block;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    right: -10px;
+    top: -25px;
+}
+
 @media screen and (max-width:420px){
     button.btn-answer {
         font-size: 15px;
