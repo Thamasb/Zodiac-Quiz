@@ -11,6 +11,7 @@ let sectionQuizEl = document.getElementById("section-quiz");
 let resultCommentEl = document.getElementById("result-comment");
 let usernameInputEl = document.getElementById("username");
 let usernameOutputEl = document.getElementById("username-output");
+var quizFeedbackEl = document.getElementById("quiz-feedback");
 
 const noUsername = document.getElementById('no-username');
 

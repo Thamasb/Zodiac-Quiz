@@ -241,7 +241,8 @@ input#username{
     text-align: center;
 }
 
-.btn-feedback, .feedback-form button{
+.btn-feedback, 
+.feedback-form button{
     position: absolute;
     bottom: 8px;
     right: 8px;
@@ -266,14 +267,24 @@ div#quiz-feedback{
     width: 100%;
 }
 
-div#quiz-feedback-form > *:not(button){
+div#quiz-feedback.active + .btn-feedback{
+    display: none;
+}
+
+form.feedback-form >*:not(button){
     display: block;
     width: 100%;
 }
 
+div#quiz-feedback{
+    font-size: 18px;
+    text-align: left;
+    color: #000;
+}
+
 .feedback-form input,
 .feedback-form textarea{
-    font-size: 20px;
+    font-size: 18px;
     padding: 8px 11px;
     border-radius: 5px;
     margin-bottom: 15px;
