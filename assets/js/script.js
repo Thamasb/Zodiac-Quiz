@@ -19,15 +19,16 @@ var score;
 var incorrect;
 var currentQuestion;
 var questionSet;
-
-//startArea.classList.add("active");//
-//Start quiz game with questions and name provided, set the selected questons, reset the points
+/**
+ * Start quiz game, username mondatory
+ */
+startArea.classList.add("active");
 function startQuiz(questions, name) {
     if (!questions && !name) return;
-    //if (usernameInputEl.value.length === 0){
-    //noUsername.style.display = 'block';
-    // return;
-    // }
+    if (usernameInputEl.value.length === 0){
+    noUsername.style.display = 'block';
+    return;
+    }
     score = 0;
     incorrect = 0;
     currentQuestion = 0;
@@ -131,7 +132,9 @@ function gameOver() {
         usernameOutputEl.innerHTML = "";
     }
 }
-
+/**
+ * Hide all screens and show start screen, remove quiz name
+ */
 
 function restartQuiz() {
     hideAllSections();
@@ -139,8 +142,9 @@ function restartQuiz() {
     sectionQuizEl.classList.remove("stars");
     startArea.classList.add("active");
 }
-
-//randomly shuffle an array
+/**
+ * randomly shuffle an array
+ */
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -149,12 +153,16 @@ function shuffleArray(array) {
         array[j] = temp;
     }
 }
-
+/**
+ * Open the feedback page.
+ */
 function openFeedback() {
     hideAllSections();
     quizFeedbackEl.classList.add("active");
 }
-
+/**
+ * Show quiz start screen.
+ */
 window.addEventListener("DOMContentLoaded", function () {
     startQuiz();
     restartQuiz();
