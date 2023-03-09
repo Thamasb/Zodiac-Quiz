@@ -260,6 +260,38 @@ input#username{
     background: grey;
 }
 
+div#quiz-feedback{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div#quiz-feedback-form > *:not(button){
+    display: block;
+    width: 100%;
+}
+
+.feedback-form input,
+.feedback-form textarea{
+    font-size: 20px;
+    padding: 8px 11px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: rgb(255 255 255 / 70%);
+}
+
+form.feedback-form h3 {
+    margin: 10px 0 10px;
+}
+
+form.feedback-form label {
+    text-transform: capitalize;
+}
+
+.feedback-form button {
+    position: static;
+}
+
 @media screen and (max-width:420px){
     button.btn-answer {
         font-size: 15px;
