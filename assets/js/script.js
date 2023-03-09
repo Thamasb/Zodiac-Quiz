@@ -29,6 +29,9 @@ function startQuiz(questions, name) {
     noUsername.style.display = 'block';
     return;
     }
+    /**
+     * Reset points, set quiestion, shuffle questions
+     */
     score = 0;
     incorrect = 0;
     currentQuestion = 0;
@@ -36,12 +39,18 @@ function startQuiz(questions, name) {
     shuffleArray(questionSet);
     scoreEl.innerHTML = score;
     incorrectEl.innerHTML = incorrect;
+    /**
+     * Hide all quiz screens, show the quiz area screen, add the selected quiz name to target a  specific quiz, show question
+     */
     hideAllSections();
     quizArea.classList.add("active");
     sectionQuizEl.classList.add(name.toLowerCase());
     displayQuestion();
 }
-//Show the current quiz questions
+/**
+ * Show the current quiz questions
+ * 
+ */
 function displayQuestion() {
     if (currentQuestion + 1 > questionSet.length) {
         gameOver();
@@ -49,6 +58,9 @@ function displayQuestion() {
     }
     questionText.innerHTML = questionSet[currentQuestion].question;
     var questionNumber = currentQuestion + 1;
+    /**
+     * Show quiz progress, update answer buttons with the right text, remove previous button status, show answer button text
+     */
     quizProgressEl.innerHTML = questionNumber + " of " + questionSet.length;
     Array.from(answerButtons).forEach(function (btn, i) {
         btn.classList.remove("correct");
@@ -62,6 +74,9 @@ function displayQuestion() {
         // answerButtons[i].onclick = function () {
         //     checkAnswer(this);
         //  };
+        /**
+         * Add next button event, increase quiestion index, hide next button, show question
+         */
         btn.onclick = function () {
             checkAnswer(this);
         };
@@ -73,8 +88,9 @@ function displayQuestion() {
     });
 }
 
-
-//Check answer button when clicked, shows the correct and incorrect answers
+/**
+ * Check answer button when clicked, shows the correct and incorrect answers, increase score
+ */
 function checkAnswer(btn) {
     var correctAns = questionSet[currentQuestion].correct;
     if (correctAns === btn.innerHTML) {
@@ -91,25 +107,30 @@ function checkAnswer(btn) {
     }
     nextButton.style.display = "block";
 }
-//Show the score of correct answers
+/**
+ * Update and show the score of correct and incorrect answers
+ */
 function incrementScore() {
     score++;
     scoreEl.innerHTML = score;
 }
-//Show the score of incorrect answers
+
 function incrementWrongAnswer() {
     incorrect++;
     incorrectEl.innerHTML = incorrect;
 }
-
-
+/**
+ * Hide all quiz screen elements
+ */
 function hideAllSections() {
     startArea.classList.remove("active");
     quizArea.classList.remove("active");
     quizResult.classList.remove("active");
     quizFeedbackEl.classList.remove("active");
 }
-//Hide all screen and show the result screen (player neme, comment, score)
+/**
+ * Hide all screen and show the result screen (player neme, comment, score).
+ */
 function gameOver() {
     hideAllSections();
     quizResult.classList.add("active");
@@ -133,9 +154,8 @@ function gameOver() {
     }
 }
 /**
- * Hide all screens and show start screen, remove quiz name
+ * Hide all screens and show start screen, remove quiz name.
  */
-
 function restartQuiz() {
     hideAllSections();
     sectionQuizEl.classList.remove("zodiac");
