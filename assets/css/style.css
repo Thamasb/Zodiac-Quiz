@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-*{
+* {
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
-body{
-   font-family: "Tilt Neon", sans-serif;
-   font-weight: 300;
-   background: #000 url("../images/universe.jpg");
-   background-size:cover;
-   background-attachment: fixed;
-   background-position: center;
-   padding: 2%;
-   padding-top: 0;
-   margin: 0;
-   border-radius: 15%;
+body {
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 300;
+    background: #000 url("../images/universe.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2%;
+    padding-top: 0;
+    margin: 0;
+    border-radius: 15%;
 }
 
-h1{ 
+h1 {
     font-size: 130%;
 }
 
@@ -31,7 +31,7 @@ section#section-quiz {
     width: 100%;
 }
 
-.quiz-wrapper{
+.quiz-wrapper {
     background: rgb(0 173 173 / 70%);
     max-width: 600px;
     margin: 0 auto;
@@ -45,44 +45,44 @@ section#section-quiz {
     /*margin-top: 150px;*/
 }
 
-#no-username{
+#no-username {
     background-color: white;
     border-radius: 6px;
     padding: 5px 10px;
     text-align: center;
 }
 
-div#welcome{
+div#welcome {
     align-self: center;
 }
 
-div#quiz-area{
+div#quiz-area {
     margin: 0 auto;
     width: 100%;
     position: relative;
     padding-bottom: 70px;
 }
 
-div#quiz-result{
+div#quiz-result {
     margin: 0 auto;
     align-self: center;
 }
 
-#zodiac:hover{
-    background-color:  grey;
+#zodiac:hover {
+    background-color: grey;
     font-family: "Tilt Neon", sans-serif;
 }
 
-#stars:hover{
-    background-color:  grey;
+#stars:hover {
+    background-color: grey;
     font-family: "Tilt Neon", sans-serif;
 }
 
-.btn-answer:hover{
-    background-color:  grey;
+.btn-answer:hover {
+    background-color: grey;
 }
 
-#welcome button{
+#welcome button {
     padding: 8px 23px;
     font-size: 20px;
     font-family: "Tilt Neon", sans-serif;
@@ -92,40 +92,41 @@ div#quiz-result{
     margin: 0 20px;
 }
 
-#welcome h1{
+#welcome h1 {
     font-size: 50px;
 }
 
-#welcome button:hover{
+#welcome button:hover {
     color: white;
 }
 
-.quiz-wrapper > div{
+.quiz-wrapper>div {
     display: none;
 }
 
-.quiz-wrapper > div.active {
+.quiz-wrapper>div.active {
     display: block;
     opacity: 0;
     animation: fadeIn 0.5s 0.5s ease-in forwards;
 }
 
-@keyframes fadeIn{
-    0%{
+@keyframes fadeIn {
+    0% {
         transform: scale(0.9);
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-#quiz-area h1{
+#quiz-area h1 {
     font-size: 50px;
     margin-bottom: 5px;
 }
 
-button.btn-answer{
+button.btn-answer {
     display: block;
     margin: 15px auto;
     padding: 12px 20px;
@@ -137,17 +138,17 @@ button.btn-answer{
     cursor: pointer
 }
 
-button.btn-answer.correct{
+button.btn-answer.correct {
     background: #2ecc71;
     color: white;
 }
 
-button.btn-answer.wrong{
+button.btn-answer.wrong {
     background: #e74c3c;
     color: white;
 }
 
-.btn-next{
+.btn-next {
     display: none;
     margin: 15px auto;
     padding: 12px 20px;
@@ -164,12 +165,13 @@ button.btn-answer.wrong{
 }
 
 .btn-next:hover,
-button#restart:hover{
+button#restart:hover {
     background: grey;
     color: white;
     font-family: "Tilt Neon", sans-serif;
 }
-button#restart{
+
+button#restart {
     margin: 15px auto;
     padding: 12px 20px;
     border-radius: 5px;
@@ -179,12 +181,12 @@ button#restart{
     background: white;
     color: #000;
 }
- 
-.score-area{
+
+.score-area {
     font-size: 31px;
 }
 
-span#score{
+span#score {
     color: #2ecc71;
     display: inline-block;
     padding: 0 10px;
@@ -193,7 +195,7 @@ span#score{
     min-width: 25px;
 }
 
-span#incorrect{
+span#incorrect {
     color: #e74c3c;
     display: inline-block;
     padding: 0 10px;
@@ -201,23 +203,25 @@ span#incorrect{
     border-radius: 5px;
     min-width: 25px;
 }
- .quiz-progress{
+
+.quiz-progress {
     font-size: 18px;
- }
-.quiz-rules{
+}
+
+.quiz-rules {
     font-size: 25px;
 }
 
-.quiz-rules > p{
+.quiz-rules>p {
     display: none;
 }
 
 .section-quiz.zodiac .rules-zodiac,
-.section-quiz.stars .rules-stars{
+.section-quiz.stars .rules-stars {
     display: block;
 }
 
-.btn-close{
+.btn-close {
     font-size: 58px;
     line-height: 0.7;
     padding: 5px 10px;
@@ -231,7 +235,7 @@ span#incorrect{
     top: -25px;
 }
 
-input#username{
+input#username {
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
     border: 3px solid #000;
@@ -241,8 +245,8 @@ input#username{
     text-align: center;
 }
 
-.btn-feedback, 
-.feedback-form button{
+.btn-feedback,
+.feedback-form button {
     position: absolute;
     bottom: 8px;
     right: 8px;
@@ -255,35 +259,35 @@ input#username{
     text-transform: capitalize;
 }
 
-.btn-feedback:hover, 
-.feedback-form button:hover{
+.btn-feedback:hover,
+.feedback-form button:hover {
     color: #fff;
     background: grey;
 }
 
-div#quiz-feedback{
+div#quiz-feedback {
     position: relative;
     margin: 0 auto;
     width: 100%;
 }
 
-div#quiz-feedback.active + .btn-feedback{
+div#quiz-feedback.active+.btn-feedback {
     display: none;
 }
 
-form.feedback-form >*:not(button){
+form.feedback-form>*:not(button) {
     display: block;
     width: 100%;
 }
 
-div#quiz-feedback{
+div#quiz-feedback {
     font-size: 18px;
     text-align: left;
     color: #000;
 }
 
 .feedback-form input,
-.feedback-form textarea{
+.feedback-form textarea {
     font-size: 18px;
     padding: 8px 11px;
     border-radius: 5px;
@@ -303,7 +307,7 @@ form.feedback-form label {
     position: static;
 }
 
-.butn-close{
+.butn-close {
     font-size: 58px;
     line-height: 0.7;
     padding: 5px 10px;
@@ -317,7 +321,7 @@ form.feedback-form label {
     top: -25px;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:420px) {
     button.btn-answer {
         font-size: 15px;
     }
