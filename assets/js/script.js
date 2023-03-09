@@ -23,11 +23,12 @@ var questionSet;
  * Start quiz game, username mondatory
  */
 startArea.classList.add("active");
+
 function startQuiz(questions, name) {
     if (!questions && !name) return;
-    if (usernameInputEl.value.length === 0){
-    noUsername.style.display = 'block';
-    return;
+    if (usernameInputEl.value.length === 0) {
+        noUsername.style.display = 'block';
+        return;
     }
     /**
      * Reset points, set quiestion, shuffle questions
@@ -87,7 +88,6 @@ function displayQuestion() {
         };
     });
 }
-
 /**
  * Check answer button when clicked, shows the correct and incorrect answers, increase score
  */

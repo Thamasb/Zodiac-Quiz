@@ -106,7 +106,10 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 ### Mobile appearance 
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/)  |
+| Index   | ![Index](https://res.cloudinary.com/duxsycizt/image/upload/v1678387884/zodiac-quiz/phone1_a9d6wj.png)  |
+| Quiz   | ![Quiz](https://res.cloudinary.com/duxsycizt/image/upload/v1678387883/zodiac-quiz/phone2_cm3erk.png)  |
+| Results   | ![Results](https://res.cloudinary.com/duxsycizt/image/upload/v1678387883/zodiac-quiz/phone3_o7j3z7.png)  |
+| Feedback   | ![Feedback](https://res.cloudinary.com/duxsycizt/image/upload/v1678387883/zodiac-quiz/phone4_dvhbhv.png)  |
 
 
 # Features
@@ -210,7 +213,7 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 ![CSS Code](https://res.cloudinary.com/duxsycizt/image/upload/v1678315743/zodiac-quiz/css-validator_a4fkcg.png)
 
-- [JShint](https://jshint.com/) is used to checked and validate the JavaSript file, there were no errors found.
+- [JShint](https://res.cloudinary.com/duxsycizt/image/upload/v1678386979/zodiac-quiz/js-jshint_sbnb2u.png) is used to checked and validate the JavaSript file, there were no errors found.
 
 
 ## Accessibility, responiveness, layout
@@ -271,23 +274,36 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 ## Desktop appearance
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/)  |
+| Index   | ![Index](https://res.cloudinary.com/duxsycizt/image/upload/v1678389264/zodiac-quiz/screen-pc1_bfwuft.png)  |
+| Username required   | ![Username required](https://res.cloudinary.com/duxsycizt/image/upload/v1678389264/zodiac-quiz/screen-pc2_if5y1t.png)  |
+| Questions  | ![Questions](https://res.cloudinary.com/duxsycizt/image/upload/v1678389265/zodiac-quiz/screen-pc3_pforsf.png)  |
+| Results  | ![Results](https://res.cloudinary.com/duxsycizt/image/upload/v1678389265/zodiac-quiz/screen-pc-4_sr0poy.png)  |
+| Final results  | ![Final results](https://res.cloudinary.com/duxsycizt/image/upload/v1678389264/zodiac-quiz/screen-pc5_hwwjbi.png)  |
+| Feedback | ![Feedback](https://res.cloudinary.com/duxsycizt/image/upload/v1678389265/zodiac-quiz/screen-pc6_g2dqwd.png)  |
 
 
 ## Mobile appearance
 |             |                                                            |
 | ----------------- | ------------------------------------------------------------------ |
-| Index   | ![Index](https://res.cloudinary.com/)  |
+| Index   | ![Index](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone1_o130j4.png)  |
+| Username required   | ![Username required](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone2_y2tuwz.png)  |
+| Questions  | ![Questions](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone3_uw9450.png)  |
+| Results  | ![Results](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone4_dhtjx0.png)  |
+| Final results  | ![Final results](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone5_jtad6o.png)  |
+| Feedback | ![Feedback](https://res.cloudinary.com/duxsycizt/image/upload/v1678389875/zodiac-quiz/screen-phone6_kcpomf.png)  |
 
 
 You can visit the deployeded website [here](https://thamasb.github.io/Zodiac-Quiz/).
 
 # Bugs
 
-- I missed a cpital letter in JavaSript file, after when I found it the quiz worked again..
+- I missed a capital letter in JavaSript file, after when I found it the quiz worked again.
 - After Jshint validation I found missing semicolons in JavasCript file, all of the solved.
-- After Jshint validation I checked all of the warnings and mosty of them solved.
+- After Jshint validation I checked all of the warnings and most of them solved.
 - During the manual test I discovered when I started the game without username and the warning message pops up, later when I finished the game and restart it, the warning message was still there and also the username. 
+- The feedback page didn't removed when I restarted the quiz. I solved this issue.
+- [Google Chrome Devtools](https://developer.chrome.com/docs/lighthouse/overview/) are showed a different practice or performance numbers during the tests and these numbers are also different another PC -witch is tested -.
+
 
 # Deployment
 
