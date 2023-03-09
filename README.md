@@ -1,6 +1,6 @@
 # ZODIAC QUIZ 
 
-![Zodiac Quiz](https://res.cloudinary.com/) 
+![Zodiac Quiz](https://res.cloudinary.com/duxsycizt/image/upload/v1678405738/zodiac-quiz/responsiveok_qhsgrm.png) 
 
 ## Introduction
 The zodiac is a belt-shaped region of the sky that extends approximately 8° north and south (as measured in celestial latitude) of the ecliptic, which is the apparent path of the Sun across the celestial sphere over the course of the year. The orbital paths of the Moon and major planets are within the belt of the zodiac
@@ -124,7 +124,7 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 
 - Two categories of questions 'Zodiac', 'Planet'.
 
-    ![Header](https://res.cloudinary.com/duxsycizt/image/upload/v1678313957/zodiac-quiz/menu_qzd3mg.png)
+    ![Header](https://res.cloudinary.com/duxsycizt/image/upload/v1678404547/zodiac-quiz/category-new_irb3ej.png)
 
 ### Answers
 - Three answer option buttons.
@@ -156,9 +156,20 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
 - One 'Restart' button restarts the quiz and the scores.
 
     ![Restart](https://res.cloudinary.com/duxsycizt/image/upload/v1678315232/zodiac-quiz/restart_gk1ewt.png)
+
+### Feedback button
+- One 'Feedback' button open it the feedback page.
+
+    ![Feedback button](https://res.cloudinary.com/duxsycizt/image/upload/v1678404675/zodiac-quiz/feedback_z0cu3g.png)
+
+### Feedback form
+- The feedback form helps to send a feedback.
+
+    ![Feedback form](https://res.cloudinary.com/duxsycizt/image/upload/v1678404936/zodiac-quiz/feedback_form_jbpynn.png)
+
+
+Submit the feedback form, the following [CodeInstitute](https://formdump.codeinstitute.net) website open
     
-
-
 
 # Technologies Used
 
