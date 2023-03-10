@@ -163,7 +163,7 @@ To design the website structure [Adobe Photoshop](https://www.adobe.com/ie/produ
     ![Feedback button](https://res.cloudinary.com/duxsycizt/image/upload/v1678404675/zodiac-quiz/feedback_z0cu3g.png)
 
 ### Feedback form
-- The feedback form helps to send a feedback.
+- The feedback form helps to send a feedback. The reset button helps to clear the data from the form. 
 
     ![Feedback form](https://res.cloudinary.com/duxsycizt/image/upload/v1678404936/zodiac-quiz/feedback_form_jbpynn.png)
 
@@ -200,6 +200,7 @@ Submit the feedback form, the following [CodeInstitute](https://formdump.codeins
  - [W3C MArkup Validator](https://validator.w3.org/)
  - [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/)
  - [JavaSript Validator ](https://jshint.com/)
+ - [Microsoft Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H)
  
 # Testing
 
@@ -227,9 +228,6 @@ Submit the feedback form, the following [CodeInstitute](https://formdump.codeins
     - During the quiz easy to find the feedback button on the bottom left side.
 
 
-
-
- 
 
 ## Code validation
 

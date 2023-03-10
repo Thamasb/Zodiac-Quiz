@@ -42,9 +42,8 @@ section#section-quiz {
     display: flex;
     position: relative;
     text-align: center;
-    /*margin-top: 150px;*/
 }
-
+/*Username required begining of the quiz*/
 #no-username {
     background-color: white;
     border-radius: 6px;
@@ -68,6 +67,7 @@ div#quiz-result {
     align-self: center;
 }
 
+/*Buttons hover elements*/
 #zodiac:hover {
     background-color: grey;
     font-family: "Tilt Neon", sans-serif;
@@ -138,7 +138,7 @@ button.btn-answer {
     max-width: 300px;
     cursor: pointer
 }
-
+/*Correct, incorrect answer backgrounds*/
 button.btn-answer.correct {
     background: #2ecc71;
     color: white;
@@ -148,7 +148,7 @@ button.btn-answer.wrong {
     background: #e74c3c;
     color: white;
 }
-
+/*Next button style*/
 .btn-next {
     display: none;
     margin: 15px auto;
@@ -246,6 +246,7 @@ input#username {
     text-align: center;
 }
 
+/*Feedback form*/
 .btn-feedback,
 .feedback-form button {
     position: absolute;
